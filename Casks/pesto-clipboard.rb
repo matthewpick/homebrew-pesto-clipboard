@@ -1,6 +1,6 @@
 cask "pesto-clipboard" do
-  version "0.3.1"
-  sha256 "2e8b8c45ff9c078ce7401b441e5428608fd20b96c434d1d822c6fcef8efd5ec3"
+  version "0.3.2"
+  sha256 "aa8659e0cdf3ba1dd189c96241d6a9afd7d62b788b3bb74fe63ab7890bbd3cfc"
 
   url "https://github.com/matthewpick/pesto-clipboard/releases/download/v#{version}/PestoClipboard-#{version}.dmg"
   name "Pesto Clipboard"
