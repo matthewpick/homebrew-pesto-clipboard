@@ -4,7 +4,7 @@ cask "pesto-clipboard-nightly" do
 
   url "https://github.com/matthewpick/pesto-clipboard/releases/download/nightly/PestoClipboard-nightly.dmg"
   name "Pesto Clipboard (Nightly)"
-  desc "Clipboard manager for macOS - bleeding edge builds"
+  desc "Clipboard manager - bleeding edge builds"
   homepage "https://github.com/matthewpick/pesto-clipboard"
 
   depends_on macos: :sonoma

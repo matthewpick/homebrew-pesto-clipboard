@@ -4,7 +4,7 @@ cask "pesto-clipboard" do
 
   url "https://github.com/matthewpick/pesto-clipboard/releases/download/v#{version}/PestoClipboard-#{version}.dmg"
   name "Pesto Clipboard"
-  desc "Clipboard manager for macOS"
+  desc "Clipboard manager"
   homepage "https://github.com/matthewpick/pesto-clipboard"
 
   depends_on macos: :sonoma
