@@ -7,12 +7,13 @@ cask "pesto-clipboard-nightly" do
   desc "Clipboard manager for macOS - bleeding edge builds"
   homepage "https://github.com/matthewpick/pesto-clipboard"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Pesto Clipboard.app"
 
   zap trash: [
     "~/Library/Application Support/PestoClipboard",
+    "~/Library/Containers/com.pestoclipboard.PestoClipboard",
     "~/Library/Preferences/com.pestoclipboard.PestoClipboard.plist",
   ]
 
